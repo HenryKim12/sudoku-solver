@@ -8,10 +8,14 @@ using namespace std;
 class Solver {
     private:
         /*
-        Genereate a random, valid sudoku board. Returns 17/81 spots filled
+        Generate a random, valid sudoku board. Returns 17/81 spots filled
         */
         vector<vector<int>> generate_random_board();
 
+        /*
+        Backtracking algorithm to fill the board
+        */
+        vector<vector<int>> backtrack();
 
     public:
         /*
