@@ -6,6 +6,11 @@
 using namespace std;
 
 class Solver {
+    private:
+        /*
+        The sudoku board
+        */
+        vector<vector<int>> _board;
     public:
         /*
         Creates a new solver with a random, generated board
@@ -26,12 +31,6 @@ class Solver {
         Return the solved sudoku board, if the board is valid
         */
         vector<vector<int>> solveBoard(vector<vector<int>> board);
-
-    private:
-        /*
-        The sudoku board
-        */
-        vector<vector<int>> board;
 
         /*
         Generate a random, valid sudoku board. Returns 17/81 spots filled
