@@ -18,6 +18,7 @@ int main() //int argc, char *argv[]
             board[i][j] = i * cols + j;
         }
     }
+    
     Solver solver = Solver(board);
     bool valid = solver.isValid(board);
     cout << to_string(valid) << endl;

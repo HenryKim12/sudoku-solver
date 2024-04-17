@@ -61,14 +61,14 @@ bool Solver::isValid(vector<vector<int>> board) {
     return true;
 }
 
-// vector<vector<int>> Solver::solveBoard(vector<vector<int>> board) {
-//     return board;
-// }
+vector<vector<int>> Solver::solveBoard(vector<vector<int>> board) {
+    return board;
+}
 
-// vector<vector<int>> Solver::generateRandomBoard() {
-//     return;
-// } 
+vector<vector<int>> Solver::generateRandomBoard() {
+    return;
+} 
 
-// vector<vector<int>> Solver::backtrack() {
-//     return;
-// }
+vector<vector<int>> Solver::backtrack() {
+    return;
+}
